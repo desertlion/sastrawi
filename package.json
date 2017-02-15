@@ -1,0 +1,33 @@
+{
+  "name": "sastrawi",
+  "version": "1.0.0",
+  "description": "Sastrawi fork for Javascript",
+  "main": "index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha -G --inline-diffs --reporter list --compilers js:babel-register --require babel-polyfill"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/desertlion/sastrawi.git"
+  },
+  "keywords": [
+    "sastrawi",
+    "javascript",
+    "nlp"
+  ],
+  "author": "Rijalul Fikri <fikri.desertlion@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/desertlion/sastrawi/issues"
+  },
+  "homepage": "https://github.com/desertlion/sastrawi#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-polyfill": "^6.23.0",
+    "babel-preset-es2015": "^6.22.0",
+    "babel-register": "^6.23.0",
+    "chai": "^3.5.0",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0"
+  }
+}
